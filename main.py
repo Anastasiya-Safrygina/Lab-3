@@ -1,6 +1,6 @@
-lines = []
-with open('input.txt') as f:
-    lines = f.readlines()
+f = open('input.txt')
+lines = f.readlines()
+f.close()
 max_string = ''
 max_value = 0
 for i in range(len(lines)):
